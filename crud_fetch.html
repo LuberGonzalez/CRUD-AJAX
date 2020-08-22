@@ -11,9 +11,9 @@
       <article>
         <h2 class="crud-title">Agregar Santo</h2>
         <form action="" class="crud-form">
-          <input type="text" placeholder="nombre" required />
+          <input type="text" placeholder="nombre" name="nombre" required />
           <br />
-          <input type="text" placeholder="constelacion" required />
+          <input type="text" placeholder="constelacion" name="constelacion" required />
           <br />
           <input type="submit" value="Enviar" />
           <input type="hidden" name="id" />
@@ -36,13 +36,13 @@
     <template id="crud-template">
       <tr>
         <td class="name"></td>
-        <td class="contellation"></td>
+        <td class="constellation"></td>
         <td>
           <button class="edit">Editar</button>
           <button class="delete">Eliminar</button>
         </td>
       </tr>
     </template>
-    <script src="js/crud.js"></script>
+    <script src="js/fetch.js"></script>
   </body>
 </html>

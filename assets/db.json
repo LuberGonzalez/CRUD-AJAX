@@ -36,9 +36,19 @@
       "id": 7
     },
     {
-      "nombre": "Afrodita",
-      "constelacion": "Picis",
+      "nombre": "Aldebaran",
+      "constelacion": "Tauro",
       "id": 8
+    },
+    {
+      "nombre": "Dokko",
+      "constelacion": "Libra",
+      "id": 9
+    },
+    {
+      "nombre": "Afrodita",
+      "constelacion": "Piscis",
+      "id": 10
     }
   ],
   "dioses": [
